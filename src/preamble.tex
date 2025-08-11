@@ -20,9 +20,12 @@
 \usepackage{pdfpages}
 \usepackage{fancyhdr}
 \usepackage{float}
+\usepackage{lipsum}
+\usepackage{textpos}
 \usepackage{sectsty}
-\usepackage{lipsum} 
 \usepackage{setspace}
+\usepackage{pgffor}
+\usetikzlibrary{calc}
 \RequirePackage{color,graphicx}
 \usepackage[linktocpage, pagebackref]{hyperref}
 
@@ -49,6 +52,20 @@
 \renewcommand{\mtctitle}{}
 \minitoc
 
+%Watermark
+\newcommand{\addwatermark}{
+  \AddToHookNext{shipout/foreground}{
+    \begin{tikzpicture}[overlay, remember picture]
+      \node[opacity=0.4,
+      text=gray, 
+      rotate=45, 
+      scale=5,
+      align=center] at (current page.center) 
+      {Dossier location \\ JD - \today{}};
+    \end{tikzpicture}
+  }
+}
+
 %Style
 \definecolor{blueblack}{RGB}{92,98,112}
 \definecolor{mediumgray}{RGB}{150,150,150}
@@ -62,4 +79,47 @@
 \newcommand{\lineh}{\noindent\rule{\textwidth}{0.5pt}}
 \sectionfont{\centering}
 \titleformat{\chapter}[block]{\bfseries\Huge}{}{0em}{}
+\newcommand{\docchapter}[1]{
+    \chapter{#1}
+    \hypertarget{chapter::\theHchapter}{}
+    \thispagestyle{empty}
+    \minitoc
+    \vspace{2cm}
+}
+\newcommand{\doc}[2]{
+    \section{#1}
+    \addwatermark
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.45\linewidth]{#2}
+    \end{figure}
+}
+\newcommand{\docpage}[2]{
+    \newpage
+    \section{#1}
+    \addwatermark
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.9\linewidth]{#2}
+    \end{figure}
+}
+\newcommand{\docpages}[4]{
+    \newpage
+    \section{#1}
+    \addwatermark
+    \foreach \p in {#3,...,#4} {
+        \ifnum\p=#3
+            \subsection{\textcolor{black!50}{#1} - Page \p}
+        \else
+            \newpage
+            \addwatermark
+            \subsection{\textcolor{black!50}{#1} - Page \p}
+        \fi
+        \begin{figure}[H]
+            \centering
+            \includegraphics[page=\p, width=0.9\linewidth]{#2}
+        \end{figure}
+    }
+}
+
 

@@ -2,15 +2,14 @@
 \thispagestyle{empty}
 
 \begin{tikzpicture}[overlay]
-\fill [fill=blueblack] (-1,1) rectangle (\paperwidth,-5);
-\fill [fill=blueblack] 
-	 (-1,-5) node[anchor=north]{}
-  -- (\paperwidth,-5) node[anchor=north]{}
-  -- (-1,-6) node[anchor=south]{}
-  -- cycle;
+\fill [fill=blueblack] (-1,4) rectangle (\paperwidth,-5);
 \end{tikzpicture}
 
-\vspace{0.5cm}
+\begin{textblock}{10}(-0.2,-0.5)  % Adjust (x, y) position and width
+    \includegraphics[width=0.25\textwidth]{doc/tenant/photo.png}
+\end{textblock}
+
+\vspace{0mm}
 {\center\color{white} 
 {\Huge \textbf{Dossier de Location}}
 \newPar
@@ -47,7 +46,7 @@ Vous trouverez ci-dessous un récapitulatif de mon dossier de location.
 \newPar
 \begin{tabularx}{\textwidth}{p{4cm}X}
 \textbf{Adresse actuelle} & 666 down street\\
-\textbf{Profession} & Unemployed\\
+\textbf{Profession} & Gardener\\
 \textbf{Employeur} & Evil company\\
 \textbf{Revenu mensuel} & 666€ net/mois
 \end{tabularx}
@@ -57,10 +56,10 @@ Vous trouverez ci-dessous un récapitulatif de mon dossier de location.
 
 \textbf{Garant}
 \newPar
-\begin{tabularx}{\textwidth}{p{4cm}X}
-& John Guarantor\\
-\textbf{Profession} & Unemployed\\
-\textbf{Employeur} & Evil company\\
-\textbf{Revenu mensuel} & 666 net/mois\\
+\begin{tabularx}{\textwidth}{p{4cm}XX}
+& XXXX XXXX & YYYY YYYY\\
+\textbf{Profession} & Unemployed & Unemployed\\
+\textbf{Employeur} & ANPE & ANPE\\
+\textbf{Revenu mensuel} & 666 net/mois & 666€ net/mois\\
 \end{tabularx}
 }
