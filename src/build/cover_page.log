@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.13)  11 AUG 2025 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.2.13)  11 AUG 2025 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -167,7 +167,7 @@ Missing character: There is no 5 in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
 l.9     \includegraphics
-                        [width=0.25\textwidth]{doc/locataire/photo.png}
+                        [width=0.25\textwidth]{doc/tenant/photo.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -189,7 +189,7 @@ Missing character: There is no 5 in font nullfont!
 <to be read again> 
                    ]
 l.9     \includegraphics[width=0.25\textwidth]
-                                              {doc/locataire/photo.png}
+                                              {doc/tenant/photo.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -198,7 +198,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.9     \includegraphics[width=0.25\textwidth]
-                                              {doc/locataire/photo.png}
+                                              {doc/tenant/photo.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -211,15 +211,12 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no / in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -603,8 +600,8 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no X in font nullfont!
 ! Misplaced alignment tab character &.
-l.38 \textbf{Téléphone} &
-                            06.00.00.00.00\\
+l.38 \textbf{Phone} &
+                      06.00.00.00.00\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -680,8 +677,8 @@ Overfull \hbox (59.7706pt too wide) in paragraph at lines 35--42
  []
 
 
-Overfull \hbox (51.92336pt too wide) in paragraph at lines 35--42
-\OT1/cmr/bx/n/10 T^^Sel^^Sephone
+Overfull \hbox (31.65956pt too wide) in paragraph at lines 35--42
+\OT1/cmr/bx/n/10 Phone
  []
 
 
@@ -761,8 +758,8 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no X in font nullfont!
 ! Misplaced alignment tab character &.
-l.48 \textbf{Adresse actuelle} &
-                                 666 down street\\
+l.48 \textbf{Address} &
+                        666 down street\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -784,8 +781,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Misplaced alignment tab character &.
-l.49 \textbf{Profession} &
-                           Unemployed\\
+l.49 \textbf{Job} &
+                    Gardener\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -793,19 +790,17 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Missing character: There is no U in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
 ! Misplaced alignment tab character &.
-l.50 \textbf{Employeur} &
-                          Evil company\\
+l.50 \textbf{Employer} &
+                         Evil company\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -825,8 +820,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Misplaced alignment tab character &.
-l.51 \textbf{Revenu mensuel} &
-                               666€ net/mois
+l.51 \textbf{Salary} &
+                       666€ net/mois
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -873,38 +868,28 @@ Overfull \hbox (65.84001pt too wide) in paragraph at lines 45--54
  []
 
 
-Overfull \hbox (39.43312pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 Adresse
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 45--54
+\OT1/cmr/bx/n/10 Ad-
  []
 
 
-Overfull \hbox (38.49284pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 actuelle
+Overfull \hbox (25.46791pt too wide) in paragraph at lines 45--54
+\OT1/cmr/bx/n/10 dress
  []
 
 
-Overfull \hbox (51.53722pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 Profession
+Overfull \hbox (18.08324pt too wide) in paragraph at lines 45--54
+\OT1/cmr/bx/n/10 Job
  []
 
 
-Overfull \hbox (54.29834pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 Employeur
+Overfull \hbox (47.90948pt too wide) in paragraph at lines 45--54
+\OT1/cmr/bx/n/10 Employer
  []
 
 
-Overfull \hbox (37.37482pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 Revenu
- []
-
-
-Overfull \hbox (25.07626pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 men-
- []
-
-
-Overfull \hbox (19.39017pt too wide) in paragraph at lines 45--54
-\OT1/cmr/bx/n/10 suel
+Overfull \hbox (31.56924pt too wide) in paragraph at lines 45--54
+\OT1/cmr/bx/n/10 Salary
  []
 
 
@@ -928,8 +913,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \textbf{Garant}
-                    
+l.57 \textbf{Guarantor}
+                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -950,7 +935,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.59 \begin{tabularx}
-                     {\textwidth}{p{4cm}X}
+                     {\textwidth}{p{4cm}XX}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -959,7 +944,7 @@ or  <return>  to continue without it.
 <to be read again> 
                    }
 l.59 \begin{tabularx}{\textwidth}
-                                 {p{4cm}X}
+                                 {p{4cm}XX}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -968,7 +953,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    }
 l.59 \begin{tabularx}{\textwidth}
-                                 {p{4cm}X}
+                                 {p{4cm}XX}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -981,9 +966,10 @@ Missing character: There is no 4 in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
 ! Misplaced alignment tab character &.
-l.60 &
-       John Guarantor\\
+l.60 \textbf{Name} &
+                     XXXX XXXX & YYYY YYYY\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -991,22 +977,35 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Missing character: There is no J in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no X in font nullfont!
 ! Misplaced alignment tab character &.
-l.61 \textbf{Profession} &
-                           Unemployed\\
+l.60 \textbf{Name} & XXXX XXXX &
+                                 YYYY YYYY\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no Y in font nullfont!
+! Misplaced alignment tab character &.
+l.61 \textbf{Job} &
+                    Unemployed & Unemployed\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1025,8 +1024,8 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Misplaced alignment tab character &.
-l.62 \textbf{Employeur} &
-                          Evil company\\
+l.61 \textbf{Job} & Unemployed &
+                                 Unemployed\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1034,20 +1033,68 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Missing character: There is no E in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
 ! Misplaced alignment tab character &.
-l.63 \textbf{Revenu mensuel} &
-                               666 net/mois\\
+l.62 \textbf{Employer} &
+                         ANPE & ANPE\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+! Misplaced alignment tab character &.
+l.62 \textbf{Employer} & ANPE &
+                                ANPE\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+! Misplaced alignment tab character &.
+l.63 \textbf{Salary} &
+                       666 net/mois & 666€ net/mois\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+! Misplaced alignment tab character &.
+l.63 \textbf{Salary} & 666 net/mois &
+                                      666€ net/mois\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1087,10 +1134,10 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 43 strings out of 476112
- 788 string characters out of 5793311
+ 42 strings out of 476112
+ 780 string characters out of 5793311
  1923975 words of memory out of 5000000
- 22157 multiletter control sequences out of 15000+600000
+ 22156 multiletter control sequences out of 15000+600000
  558712 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  23i,1n,32p,121b,113s stack positions out of 10000i,1000n,20000p,200000b,200000s
